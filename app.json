@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/classsic/classsic"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#00cccc",
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText":"logoChao",
+    "navigationStyle":"default",
+    "backgroundColor":"#ffffff",
+    "enablePullDownRefresh":true
+  },
+  "sitemapLocation": "sitemap.json"
+}

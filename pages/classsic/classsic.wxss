@@ -1,0 +1,42 @@
+/* 
+**小程序布局容器宽度不指定默认100%，高度自适应（元素填充的高度） 
+*/
+.container{
+  /* 为子元素(flex item)指定flex container */
+  display: flex; 
+  /* 指定子元素(flex item)排列方式，指定主轴 column column-reverse  row  row-reverse */
+  flex-direction: column-reverse;
+  /* 指定子元素主轴(flex item)对齐方式 
+    flex-start(左上对齐),
+    flex-end（下右对齐）, 
+    center（居中）, 
+    space-between（平均分布）, 
+    space-around(等距分布 每个子元素(flex item)上下左右距离均相等)，
+    **reverse模式下上左为end, 下右为start 
+  */
+  justify-content: center;
+   /* 指定子元素交叉轴(flex item)对齐方式 
+    flex-start(左上对齐),
+    flex-end（下右对齐）, 
+    center（居中）, 
+    space-between（平均分布）, 
+    space-around(等距分布 每个子元素(flex item)上下左右距离均相等)，
+    **reverse模式下上左为end, 下右为start 
+  */
+  align-items: flex-start;
+  height:400px;
+  background-color: #ccc;
+}
+.chunk{
+  width: 100px;
+  height: 100px;
+}
+.chunk1{
+  background-color: red
+}
+.chunk2{
+  background-color: blue
+}
+.chunk3{
+  background-color: green
+}
